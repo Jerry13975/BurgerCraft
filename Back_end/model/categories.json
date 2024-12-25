@@ -1,0 +1,239 @@
+[
+    {
+        "name": "Buns",
+        "ingredients": [
+            {
+                "name": "Sesame Bun",
+                "cost": 0.5,
+                "nutritionalFacts": {
+                    "calories": 150,
+                    "fat": 2,
+                    "carbohydrates": 28,
+                    "protein": 5
+                }
+            },
+            {
+                "name": "Whole Wheat Bun",
+                "cost": 0.6,
+                "nutritionalFacts": {
+                    "calories": 120,
+                    "fat": 1,
+                    "carbohydrates": 24,
+                    "protein": 6
+                }
+            },
+            {
+                "name": "Gluten-Free Bun",
+                "cost": 0.7,
+                "nutritionalFacts": {
+                    "calories": 140,
+                    "fat": 2,
+                    "carbohydrates": 30,
+                    "protein": 4
+                }
+            },
+            {
+                "name": "Brioche Bun",
+                "cost": 0.8,
+                "nutritionalFacts": {
+                    "calories": 200,
+                    "fat": 9,
+                    "carbohydrates": 30,
+                    "protein": 7
+                }
+            },
+            {
+                "name": "Pretzel Bun",
+                "cost": 0.75,
+                "nutritionalFacts": {
+                    "calories": 210,
+                    "fat": 3,
+                    "carbohydrates": 34,
+                    "protein": 6
+                }
+            }
+        ]
+    },
+    {
+        "name": "Proteins",
+        "ingredients": [
+            {
+                "name": "Beef Patty",
+                "cost": 1.5,
+                "extra": 0.75,
+                "nutritionalFacts": {
+                    "calories": 250,
+                    "fat": 20,
+                    "carbohydrates": 0,
+                    "protein": 25
+                }
+            },
+            {
+                "name": "Chicken Patty",
+                "cost": 1.3,
+                "extra": 0.625,
+                "nutritionalFacts": {
+                    "calories": 200,
+                    "fat": 8,
+                    "carbohydrates": 0,
+                    "protein": 22
+                }
+            },
+            {
+                "name": "Turkey Patty",
+                "cost": 1.4,
+                "extra": 0.7,
+                "nutritionalFacts": {
+                    "calories": 180,
+                    "fat": 7,
+                    "carbohydrates": 0,
+                    "protein": 20
+                }
+            },
+            {
+                "name": "Veggie Patty",
+                "cost": 1.2,
+                "extra": 0.6,
+                "nutritionalFacts": {
+                    "calories": 150,
+                    "fat": 5,
+                    "carbohydrates": 15,
+                    "protein": 8
+                }
+            },
+            {
+                "name": "Fish Fillet",
+                "cost": 1.6,
+                "extra": 0.8,
+                "nutritionalFacts": {
+                    "calories": 210,
+                    "fat": 12,
+                    "carbohydrates": 0,
+                    "protein": 22
+                }
+            }
+        ]
+    },
+    {
+        "name": "Toppings",
+        "ingredients": [
+            {
+                "name": "Lettuce",
+                "cost": 0.2,
+                "extra": 0.0,
+                "nutritionalFacts": {
+                    "calories": 5,
+                    "fat": 0,
+                    "carbohydrates": 1,
+                    "protein": 0.5
+                }
+            },
+            {
+                "name": "Tomato",
+                "cost": 0.3,
+                "extra": 0.0,
+                "nutritionalFacts": {
+                    "calories": 10,
+                    "fat": 0,
+                    "carbohydrates": 2,
+                    "protein": 0.5
+                }
+            },
+            {
+                "name": "Onion",
+                "cost": 0.1,
+                "extra": 0.0,
+                "nutritionalFacts": {
+                    "calories": 4,
+                    "fat": 0,
+                    "carbohydrates": 1,
+                    "protein": 0.2
+                }
+            },
+            {
+                "name": "Pickles",
+                "cost": 0.25,
+                "extra": 0.0,
+                "nutritionalFacts": {
+                    "calories": 5,
+                    "fat": 0,
+                    "carbohydrates": 1,
+                    "protein": 0
+                }
+            },
+            {
+                "name": "Jalapeños",
+                "cost": 0.4,
+                "extra": 0.0,
+                "nutritionalFacts": {
+                    "calories": 10,
+                    "fat": 0,
+                    "carbohydrates": 2,
+                    "protein": 0.5
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sauces",
+        "ingredients": [
+            {
+                "name": "Ketchup",
+                "cost": 0.2,
+                "extra": 0.0,
+                "nutritionalFacts": {
+                    "calories": 20,
+                    "fat": 0,
+                    "carbohydrates": 5,
+                    "protein": 0
+                }
+            },
+            {
+                "name": "Mustard",
+                "cost": 0.15,
+                "extra": 0.0,
+                "nutritionalFacts": {
+                    "calories": 10,
+                    "fat": 0,
+                    "carbohydrates": 1,
+                    "protein": 0.2
+                }
+            },
+            {
+                "name": "Mayo",
+                "cost": 0.25,
+                "extra": 0.0,
+                "nutritionalFacts": {
+                    "calories": 100,
+                    "fat": 11,
+                    "carbohydrates": 0,
+                    "protein": 0
+                }
+            },
+            {
+                "name": "BBQ Sauce",
+                "cost": 0.3,
+                "extra": 0.0,
+                "nutritionalFacts": {
+                    "calories": 30,
+                    "fat": 0,
+                    "carbohydrates": 8,
+                    "protein": 0
+                }
+            },
+            {
+                "name": "Ranch Dressing",
+                "cost": 0.35,
+                "extra": 0.0,
+                "nutritionalFacts": {
+                    "calories": 140,
+                    "fat": 15,
+                    "carbohydrates": 2,
+                    "protein": 1
+                }
+            }
+        ]
+    }
+  ]
+  
+  
