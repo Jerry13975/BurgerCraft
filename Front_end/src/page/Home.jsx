@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import bunImage from './images/Burger buns.jpg';
-import pattyImage from './images/patty types.jpg';
-import toppingsImage from './images/topping.jpg';
-import saucesImage from './images/sauces.jpg';
-import './styles/Home.css';
+import bunImage from '../images/Burger buns.jpg';
+import pattyImage from '../images/patty types.jpg';
+import toppingsImage from '../images/topping.jpg';
+import saucesImage from '../images/sauces.jpg';
+import '../styles/Home.css';
 
 const Home = () => {
     return (

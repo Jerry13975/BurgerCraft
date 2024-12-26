@@ -1,13 +1,13 @@
 import {useContext, useState} from 'react';
-import { BurgerContext } from './BurgerContext';
-import Options from './Options';
-import Builder from './Builder';
-import Summary from './Summary';
+import { BurgerContext } from '../context/BurgerContext';
+import Options from '../components/Options';
+import Builder from '../components/Builder';
+import Summary from '../components/Summary';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Cookies from 'js-cookie';
 import PropTypes from 'prop-types';
-import './styles/Customize.css';
+import '../styles/Customize.css';
 
 const Customize = ({setShowPopup, isLoggedIn}) => {
     const {selectedIngredients, setSelectedIngredients} = useContext(BurgerContext);

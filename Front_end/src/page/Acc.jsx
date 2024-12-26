@@ -1,8 +1,8 @@
-import FavoritesPage from './Favorite';
-import History from './History';
+import FavoritesPage from '../components/Favorite'
+import History from '../components/History';
 import {useNavigate} from 'react-router-dom';
 import PropTypes from 'prop-types';
-import './styles/Acc.css';
+import '../styles/Acc.css';
 
 const Acc = ({isLoggedIn, logout}) => {
     const navigate = useNavigate();

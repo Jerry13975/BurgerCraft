@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import LoginForm from './LoginForm';
-import RegisterForm from './RegisterForm';
+import LoginForm from '../components/LoginForm';
+import RegisterForm from '../components/RegisterForm';
 import PropTypes from 'prop-types';
-import './styles/Popup.css';
+import '../styles/Popup.css';
 
 const AccountPopup = ({onClose, onLoginSuccess}) => {
     const [isLogin, setIsLogin] = useState(true);

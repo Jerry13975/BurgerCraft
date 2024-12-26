@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
-import './styles/Register.css';
+import '../styles/Register.css';
 
 const RegisterForm = ({onRegisterSuccess}) => {
     const [formData, setFormData] = useState({

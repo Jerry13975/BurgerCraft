@@ -1,20 +1,20 @@
 import {useState} from 'react';
-import BurgerProvider from './BurgerContext';
-import Header from './Header';
-import Home from './Home';
-import Customize from './Customize';
-import Order from './Order';
-import AccountPopup from './AccountPopup';
+import BurgerProvider from './context/BurgerContext';
+import Header from './page/Header';
+import Home from './page/Home';
+import Customize from './page/Customize';
+import Order from './page/Order';
+import AccountPopup from './page/AccountPopup';
 import useAuth from './hooks/useAuth';
-import Acc from './Acc';
-import Nav from './Nav';
-import Footer from './Footer';
+import Acc from './page/Acc';
+import Nav from './page/Nav';
+import Footer from './page/Footer';
 import { useNavigate } from 'react-router-dom';
 
 
 import {useEffect} from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Loading from './Loading';
+import Loading from './page/Loading';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);

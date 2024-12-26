@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
-import './styles/Login.css';
+import '../styles/Login.css';
 
 const LoginForm = ({onLoginSuccess}) => {
     const [formData, setFormData] = useState({email: '', password: ''});

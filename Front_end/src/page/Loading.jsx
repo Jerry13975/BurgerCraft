@@ -1,4 +1,4 @@
-import './styles/Loading.css';
+import '../styles/Loading.css';
 import {useEffect} from 'react';
 
 const Loading = () => {

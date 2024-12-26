@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react';
 import axios from 'axios';
 import Cookies from 'js-cookie';
 import PropTypes from 'prop-types';
-import './styles/Acc.css';
+import '../styles/Acc.css';
 
 const FavoritesPage = ({isLoggedIn}) => {
     const [favorites, setFavorites] = useState([]);
