@@ -47,7 +47,9 @@
 
 .body {
     grid-row: 3/9;
-    grid-column: 2/9;
+    grid-column: 1/9;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .footer {
